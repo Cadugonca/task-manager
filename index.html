@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Board de Tarefas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Board de tarefas</h1>
+
+    <form id="form-tarefa">
+      <input type="text" id="nome-tarefa" placeholder="Nome da tarefa" required>
+      <input type="text" id="etiqueta-tarefa" placeholder="Etiqueta" required>
+      <button type="submit" id="btn-adicionar">+</button>
+    </form>
+
+    <ul id="lista-tarefas">
+      <!-- Tarefas renderizadas aqui via JS -->
+
+    </ul>
+
+    <footer>
+      <p id="contador">0 tarefas concluídas</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
